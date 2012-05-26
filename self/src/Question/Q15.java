@@ -6,6 +6,8 @@ public class Q15 {
 		int start = 0;
 		int end = len - 1;
 		char tmp;
+		char tmp1 = 0;
+		System.out.println(tmp1);
 		while (start < end) {
 			tmp = s[start];
 			s[start++] = s[end];

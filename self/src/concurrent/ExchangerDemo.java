@@ -12,6 +12,7 @@ class Generator<T> {
 			return c.newInstance();
 		} catch (InstantiationException e) {
 		} catch (IllegalAccessException e) {
+		} catch (Exception e) {
 		}
 		return null;
 	}
@@ -23,7 +24,7 @@ class ExchangerProducer<T> implements Runnable {
 
 	@Override
 	public void run() {
-		
+
 	}
 
 }
