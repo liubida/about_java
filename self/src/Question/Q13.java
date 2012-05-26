@@ -1,15 +1,12 @@
 package Question;
 
 import java.util.HashMap;
-import java.util.Hashtable;
 import java.util.Map;
 
-//题目：在一个字符串中找到第一个只出现一次的字符。如输入abaccdeff，则输出b。
 public class Q13 {
 	public static void main(String[] args) {
 		char[] a = "abaccdeff".toCharArray();
 		Map<Character, Integer> m = new HashMap<Character, Integer>();
-		Map<Character, Integer> m1 = new Hashtable<Character, Integer>();
 		for (int i = 0; i < a.length; i++) {
 			if (!m.containsKey(a[i])) {
 				m.put(a[i], 1);
@@ -25,8 +22,7 @@ public class Q13 {
 			}
 		}
 		new Q13().a(1, "");
-		new Q13().a((short)1, "");
-		int b = 1/0;
+		new Q13().a((short) 1, "");
 	}
 
 	public void a(int a, String b) {

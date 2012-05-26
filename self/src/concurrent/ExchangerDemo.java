@@ -17,6 +17,7 @@ class Generator<T> {
 	}
 }
 
+@SuppressWarnings("unused")
 class ExchangerProducer<T> implements Runnable {
 	private Generator<T> generator;
 

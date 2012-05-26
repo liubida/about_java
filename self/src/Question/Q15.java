@@ -37,6 +37,7 @@ public class Q15 {
 		return null;
 	}
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		Plus[] list = new Plus[100];
 		System.out.println(Plus.getSum());

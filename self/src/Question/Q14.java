@@ -9,6 +9,7 @@ public class Q14 implements h {
 
 	}
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		Q14 q = new Q14();
 		// new g();
